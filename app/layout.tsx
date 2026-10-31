@@ -14,7 +14,11 @@ export const metadata: Metadata = {
   description:
     "Freshly prepared favorites, thoughtful drinks, and warm hospitality—served in a space that feels like your own. Join us for a quick lunch, a relaxed dinner, or a reason to celebrate.",
   icons: {
-    icon: "/images/logo.svg",
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "32x32" },
+    ],
+    apple: [{ url: "/favicon.svg", type: "image/svg+xml" }],
   },
 };
 
